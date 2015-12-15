@@ -1,1 +1,8 @@
-foo: bazz
+spring:
+  data:
+    mongodb:
+     database: viva # Database name.
+     host: localhost # Mongo server host.
+     port: 27017 # Mongo server port.
+     repositories:
+       enabled: true # Enable Mongo repositories.

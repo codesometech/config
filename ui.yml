@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+
+viva:
+  ribbon:
+    ServerListRefreshInterval: 5000
+    listOfServers: localhost:8080,localhost:8082
+
+foo: barrr

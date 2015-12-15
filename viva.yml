@@ -2,8 +2,8 @@ spring:
   data:
     mongodb:
      database: viva
-     host: testfme01
+     host: localhost
      port: 27017
-     uri: mongodb://testfme01:27017/viva
+     uri: mongodb://localhost:27017/viva
      repositories:
        enabled: true

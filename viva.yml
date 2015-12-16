@@ -7,3 +7,5 @@ spring:
      uri: mongodb://localhost:27017/viva
      repositories:
        enabled: true
+
+featured: Fabioli Cellars

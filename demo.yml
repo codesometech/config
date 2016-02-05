@@ -1,1 +1,4 @@
-foo: bar
+server:
+  port: 8080
+
+foo: kit
